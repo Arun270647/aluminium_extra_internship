@@ -1,0 +1,56 @@
+observation_id,block,sample_id,feed_type,factor_1_name,factor_2_name,group_sample_id,group_sample_id_block,group_feed_type,group_feed_type_factor,group_composition_exact,group_block
+ALD-001,Roasting desulfurization,U,Unroasted,roasting_temperature,roasting_time,U,U|Roasting desulfurization,Unroasted,Unroasted|roasting_temperature,58.8800000000|12.1000000000|4.8661157025,Roasting desulfurization
+ALD-002,Roasting desulfurization,R-550,Roasted,roasting_temperature,roasting_time,R-550,R-550|Roasting desulfurization,Roasted,Roasted|roasting_temperature,59.2727426013|11.4459939021|5.1784705730,Roasting desulfurization
+ALD-003,Roasting desulfurization,R-550,Roasted,roasting_temperature,roasting_time,R-550,R-550|Roasting desulfurization,Roasted,Roasted|roasting_temperature,62.0892857143|12.3355263158|5.0333714286,Roasting desulfurization
+ALD-004,Roasting desulfurization,R-550,Roasted,roasting_temperature,roasting_time,R-550,R-550|Roasting desulfurization,Roasted,Roasted|roasting_temperature,57.2057222517|13.6144264006|4.2018459367,Roasting desulfurization
+ALD-005,Roasting desulfurization,R-550,Roasted,roasting_temperature,roasting_time,R-550,R-550|Roasting desulfurization,Roasted,Roasted|roasting_temperature,62.4267109635|12.6478988168|4.9357376959,Roasting desulfurization
+ALD-006,Roasting desulfurization,R-600,Roasted,roasting_temperature,roasting_time,R-600,R-600|Roasting desulfurization,Roasted,Roasted|roasting_temperature,63.0159914712|13.1415291961|4.7951795054,Roasting desulfurization
+ALD-007,Roasting desulfurization,R-600,Roasted,roasting_temperature,roasting_time,R-600,R-600|Roasting desulfurization,Roasted,Roasted|roasting_temperature,63.8405682715|12.9721172175|4.9213684398,Roasting desulfurization
+ALD-008,Roasting desulfurization,R-600,Roasted,roasting_temperature,roasting_time,R-600,R-600|Roasting desulfurization,Roasted,Roasted|roasting_temperature,64.3197278912|12.3347584648|5.2145105293,Roasting desulfurization
+ALD-009,Roasting desulfurization,R-600,Roasted,roasting_temperature,roasting_time,R-600,R-600|Roasting desulfurization,Roasted,Roasted|roasting_temperature,68.3413746631|13.0916914929|5.2202096803,Roasting desulfurization
+ALD-010,Roasting desulfurization,R-650,Roasted,roasting_temperature,roasting_time,R-650,R-650|Roasting desulfurization,Roasted,Roasted|roasting_temperature,63.8143255443|12.6457066458|5.0463234149,Roasting desulfurization
+ALD-011,Roasting desulfurization,R-650,Roasted,roasting_temperature,roasting_time,R-650,R-650|Roasting desulfurization,Roasted,Roasted|roasting_temperature,60.3390850722|12.9450653788|4.6611649541,Roasting desulfurization
+ALD-012,Roasting desulfurization,R-650,Roasted,roasting_temperature,roasting_time,R-650,R-650|Roasting desulfurization,Roasted,Roasted|roasting_temperature,64.0243217961|12.9814714523|4.9319772440,Roasting desulfurization
+ALD-013,Roasting desulfurization,R-650,Roasted,roasting_temperature,roasting_time,R-650,R-650|Roasting desulfurization,Roasted,Roasted|roasting_temperature,63.8762038523|12.7965043695|4.9916916376,Roasting desulfurization
+ALD-014,Roasting desulfurization,R-700,Roasted,roasting_temperature,roasting_time,R-700,R-700|Roasting desulfurization,Roasted,Roasted|roasting_temperature,62.4082478295|12.8751898162|4.8471710880,Roasting desulfurization
+ALD-015,Roasting desulfurization,R-700,Roasted,roasting_temperature,roasting_time,R-700,R-700|Roasting desulfurization,Roasted,Roasted|roasting_temperature,63.8474849095|12.9972819372|4.9123720804,Roasting desulfurization
+ALD-016,Roasting desulfurization,R-700,Roasted,roasting_temperature,roasting_time,R-700,R-700|Roasting desulfurization,Roasted,Roasted|roasting_temperature,64.6140327520|14.4373048184|4.4754913444,Roasting desulfurization
+ALD-017,Roasting desulfurization,R-700,Roasted,roasting_temperature,roasting_time,R-700,R-700|Roasting desulfurization,Roasted,Roasted|roasting_temperature,65.3692348355|12.9347420355|5.0537718229,Roasting desulfurization
+ALD-018,Roasting desulfurization,R-900,Roasted,roasting_temperature,roasting_time,R-900,R-900|Roasting desulfurization,Roasted,Roasted|roasting_temperature,65.3961079545|12.7093301435|5.1455196471,Roasting desulfurization
+ALD-019,Roasting desulfurization,R-900,Roasted,roasting_temperature,roasting_time,R-900,R-900|Roasting desulfurization,Roasted,Roasted|roasting_temperature,66.0932622081|12.9331868571|5.1103616563,Roasting desulfurization
+ALD-020,Roasting desulfurization,R-900,Roasted,roasting_temperature,roasting_time,R-900,R-900|Roasting desulfurization,Roasted,Roasted|roasting_temperature,66.7296360254|12.6788957198|5.2630479420,Roasting desulfurization
+ALD-021,Roasting desulfurization,R-900,Roasted,roasting_temperature,roasting_time,R-900,R-900|Roasting desulfurization,Roasted,Roasted|roasting_temperature,65.9022412191|12.8666067446|5.1219596998,Roasting desulfurization
+ALD-022,Lime,U,Unroasted,lime,,U,U|Lime,Unroasted,Unroasted|lime,58.8800000000|12.1000000000|4.8661157025,Lime
+ALD-023,Lime,R-600,Roasted,lime,,R-600,R-600|Lime,Roasted,Roasted|lime,68.3413746631|13.0916914929|5.2202096803,Lime
+ALD-024,Lime,U,Unroasted,lime,,U,U|Lime,Unroasted,Unroasted|lime,58.8800000000|12.1000000000|4.8661157025,Lime
+ALD-025,Lime,R-600,Roasted,lime,,R-600,R-600|Lime,Roasted,Roasted|lime,68.3413746631|13.0916914929|5.2202096803,Lime
+ALD-026,Lime,U,Unroasted,lime,,U,U|Lime,Unroasted,Unroasted|lime,58.8800000000|12.1000000000|4.8661157025,Lime
+ALD-027,Lime,R-600,Roasted,lime,,R-600,R-600|Lime,Roasted,Roasted|lime,68.3413746631|13.0916914929|5.2202096803,Lime
+ALD-028,Lime,U,Unroasted,lime,,U,U|Lime,Unroasted,Unroasted|lime,58.8800000000|12.1000000000|4.8661157025,Lime
+ALD-029,Lime,R-600,Roasted,lime,,R-600,R-600|Lime,Roasted,Roasted|lime,68.3413746631|13.0916914929|5.2202096803,Lime
+ALD-030,Na2Ok,U,Unroasted,Na2Ok,,U,U|Na2Ok,Unroasted,Unroasted|Na2Ok,58.8800000000|12.1000000000|4.8661157025,Na2Ok
+ALD-031,Na2Ok,R-600,Roasted,Na2Ok,,R-600,R-600|Na2Ok,Roasted,Roasted|Na2Ok,68.3413746631|13.0916914929|5.2202096803,Na2Ok
+ALD-032,Na2Ok,U,Unroasted,Na2Ok,,U,U|Na2Ok,Unroasted,Unroasted|Na2Ok,58.8800000000|12.1000000000|4.8661157025,Na2Ok
+ALD-033,Na2Ok,R-600,Roasted,Na2Ok,,R-600,R-600|Na2Ok,Roasted,Roasted|Na2Ok,68.3413746631|13.0916914929|5.2202096803,Na2Ok
+ALD-034,Na2Ok,U,Unroasted,Na2Ok,,U,U|Na2Ok,Unroasted,Unroasted|Na2Ok,58.8800000000|12.1000000000|4.8661157025,Na2Ok
+ALD-035,Na2Ok,R-600,Roasted,Na2Ok,,R-600,R-600|Na2Ok,Roasted,Roasted|Na2Ok,68.3413746631|13.0916914929|5.2202096803,Na2Ok
+ALD-036,Na2Ok,U,Unroasted,Na2Ok,,U,U|Na2Ok,Unroasted,Unroasted|Na2Ok,58.8800000000|12.1000000000|4.8661157025,Na2Ok
+ALD-037,Na2Ok,R-600,Roasted,Na2Ok,,R-600,R-600|Na2Ok,Roasted,Roasted|Na2Ok,68.3413746631|13.0916914929|5.2202096803,Na2Ok
+ALD-038,Temperature,U,Unroasted,digestion_temperature,,U,U|Temperature,Unroasted,Unroasted|digestion_temperature,58.8800000000|12.1000000000|4.8661157025,Temperature
+ALD-039,Temperature,R-600,Roasted,digestion_temperature,,R-600,R-600|Temperature,Roasted,Roasted|digestion_temperature,68.3413746631|13.0916914929|5.2202096803,Temperature
+ALD-040,Temperature,U,Unroasted,digestion_temperature,,U,U|Temperature,Unroasted,Unroasted|digestion_temperature,58.8800000000|12.1000000000|4.8661157025,Temperature
+ALD-041,Temperature,R-600,Roasted,digestion_temperature,,R-600,R-600|Temperature,Roasted,Roasted|digestion_temperature,68.3413746631|13.0916914929|5.2202096803,Temperature
+ALD-042,Temperature,U,Unroasted,digestion_temperature,,U,U|Temperature,Unroasted,Unroasted|digestion_temperature,58.8800000000|12.1000000000|4.8661157025,Temperature
+ALD-043,Temperature,R-600,Roasted,digestion_temperature,,R-600,R-600|Temperature,Roasted,Roasted|digestion_temperature,68.3413746631|13.0916914929|5.2202096803,Temperature
+ALD-044,Temperature,U,Unroasted,digestion_temperature,,U,U|Temperature,Unroasted,Unroasted|digestion_temperature,58.8800000000|12.1000000000|4.8661157025,Temperature
+ALD-045,Temperature,R-600,Roasted,digestion_temperature,,R-600,R-600|Temperature,Roasted,Roasted|digestion_temperature,68.3413746631|13.0916914929|5.2202096803,Temperature
+ALD-046,Time,U,Unroasted,digestion_time,,U,U|Time,Unroasted,Unroasted|digestion_time,58.8800000000|12.1000000000|4.8661157025,Time
+ALD-047,Time,R-600,Roasted,digestion_time,,R-600,R-600|Time,Roasted,Roasted|digestion_time,68.3413746631|13.0916914929|5.2202096803,Time
+ALD-048,Time,U,Unroasted,digestion_time,,U,U|Time,Unroasted,Unroasted|digestion_time,58.8800000000|12.1000000000|4.8661157025,Time
+ALD-049,Time,R-600,Roasted,digestion_time,,R-600,R-600|Time,Roasted,Roasted|digestion_time,68.3413746631|13.0916914929|5.2202096803,Time
+ALD-050,Time,U,Unroasted,digestion_time,,U,U|Time,Unroasted,Unroasted|digestion_time,58.8800000000|12.1000000000|4.8661157025,Time
+ALD-051,Time,R-600,Roasted,digestion_time,,R-600,R-600|Time,Roasted,Roasted|digestion_time,68.3413746631|13.0916914929|5.2202096803,Time
+ALD-052,Time,U,Unroasted,digestion_time,,U,U|Time,Unroasted,Unroasted|digestion_time,58.8800000000|12.1000000000|4.8661157025,Time
+ALD-053,Time,R-600,Roasted,digestion_time,,R-600,R-600|Time,Roasted,Roasted|digestion_time,68.3413746631|13.0916914929|5.2202096803,Time
+ALD-054,Time,U,Unroasted,digestion_time,,U,U|Time,Unroasted,Unroasted|digestion_time,58.8800000000|12.1000000000|4.8661157025,Time
+ALD-055,Time,R-600,Roasted,digestion_time,,R-600,R-600|Time,Roasted,Roasted|digestion_time,68.3413746631|13.0916914929|5.2202096803,Time

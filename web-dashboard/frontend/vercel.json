@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://aluminum-api.onrender.com/api/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

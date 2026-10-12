@@ -1,0 +1,25 @@
+feature,category,role,model_use,definition
+observation_id,identifier,metadata,exclude,Unique source observation identifier; not a predictive feature.
+block,experimental_structure,metadata,exclude,"Experimental block label; retained for validation/diagnostics, not a default predictor."
+sample_id,experimental_structure,metadata,exclude,Categorical experimental/feed identifier; retained for grouping. Raw sample_id is not a default predictor because labels encode experimental state.
+feed_type,feed descriptor,candidate,candidate,Categorical pre-process/feed-state descriptor: Roasted or Unroasted.
+pretreatment_state,feed descriptor,metadata,exclude,Redundant with feed_type in this formulation; retained for traceability.
+bauxite_al2o3_pct,feed chemistry,candidate,candidate,Pre-process bauxite Al2O3 percentage.
+bauxite_sio2_pct,feed chemistry,candidate,candidate,Pre-process bauxite SiO2 percentage.
+bauxite_as_ratio,feed chemistry,candidate derived,sensitivity,Derived as Al2O3/SiO2. Compare inclusion versus exclusion; do not automatically use all three chemistry variables together.
+factor_1_name,process factor identity,candidate,candidate,Explicit identity of the first experimental factor; categorical.
+factor_1_value,process factor value,candidate,candidate,Numeric value of factor_1. Structural NaN is preserved where no numeric value is present.
+factor_1_unit,process factor metadata,metadata,exclude,Unit associated with factor_1; retained as metadata because factor identity determines the unit.
+factor_1_value_present,structural missingness indicator,metadata,candidate,"Explicit indicator that factor_1 has an observed numeric value; this is encoding of experimental structure, not imputation."
+factor_2_name,process factor identity,candidate,candidate,Explicit identity of the second experimental factor; needed for the two-factor roasting block.
+factor_2_value,process factor value,candidate,candidate,Numeric value of factor_2. Structural NaN is preserved where no numeric value is present.
+factor_2_unit,process factor metadata,metadata,exclude,Unit associated with factor_2; retained as metadata.
+factor_2_value_present,structural missingness indicator,metadata,candidate,"Explicit indicator that factor_2 has an observed numeric value; this is encoding of experimental structure, not imputation."
+factor_count,experimental structure,metadata,exclude,Number of factor slots represented in the Phase 4B formulation; retained for audit.
+digestion_efficiency_pct,target,target,target,Continuous supervised-regression target in percent.
+group_sample_id,validation group,metadata,exclude,Validation grouping key derived from sample_id.
+group_sample_id_block,validation group,metadata,exclude,Validation grouping key derived from sample_id and block.
+group_feed_type,validation group,metadata,exclude,Validation grouping key derived from feed_type.
+group_feed_type_factor,validation group,metadata,exclude,Validation grouping key derived from feed_type and factor_1_name.
+group_composition_exact,validation group,metadata,exclude,"Validation grouping key based on exact bauxite Al2O3, SiO2 and A/S values."
+group_block,validation group,metadata,exclude,Validation grouping key equal to experimental block.

@@ -1,0 +1,10 @@
+model,MAE,RMSE,R2,element
+Mean Baseline,9.28,12.56,,Li
+Ridge (α=5),8.75,11.41,0.175,Li
+Random Forest,9.1,12.42,0.023,Li
+Mean Baseline,5.4,7.43,,Ga
+Ridge (α=5),5.77,7.56,-0.035,Ga
+Random Forest,6.28,8.01,-0.161,Ga
+Mean Baseline,7.3,9.01,,Sc
+Ridge (α=5),6.76,8.57,0.094,Sc
+Random Forest,4.47,5.5,0.627,Sc

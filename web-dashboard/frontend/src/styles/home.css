@@ -1,0 +1,37 @@
+/* Home */
+.home-tools { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.home-tool { display: flex; flex-direction: column; gap: 14px; padding: 28px; }
+.home-tool__question { font: 500 28px/1.15 var(--serif); }
+.home-tool__explainer { color: var(--muted); font-size: 15px; }
+.home-tool__facts { display: grid; gap: 6px; padding: 4px 0 8px; }
+.home-tool__facts div { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 14px; align-items: baseline; }
+.home-tool__facts dt { font-size: 13px; color: var(--muted); }
+.home-tool__facts dd { font: 400 13px/1.4 var(--mono); min-width: 0; }
+.home-tool__version { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.home-tool__unavailable { color: var(--warn); font-family: var(--sans) !important; font-weight: 600; }
+.home-tool__action { margin-top: auto; align-self: flex-start; }
+
+.home-columns { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+.home-list { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.home-list__head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.home-list__error { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
+.home-rows { list-style: none; border: 1px solid var(--line); background: var(--surface); }
+.home-rows li + li { border-top: 1px solid var(--line); }
+.home-row--recent .kind-tag { flex: none; }
+.home-row.home-row--recent { display: grid; grid-template-columns: 112px minmax(0, 1fr) auto; }
+.home-row { display: flex; align-items: center; gap: 14px; padding: 14px 18px; color: var(--ink); text-decoration: none; min-width: 0; }
+.home-row:hover { background: var(--surface2); text-decoration: none; }
+.home-row__copy { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+.home-row__title { font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.home-row__meta { font-size: 13px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.home-row__time { font-size: 12px; color: var(--muted); white-space: nowrap; }
+
+@media (max-width: 1080px) {
+  .home-columns { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 420px) {
+  .home-tools { grid-template-columns: minmax(0, 1fr); }
+  .home-tool { padding: 22px 18px; }
+  .home-row.home-row--recent { grid-template-columns: minmax(0, 1fr) auto; }
+  .home-row--recent .kind-tag { grid-column: 1 / -1; justify-self: start; }
+}

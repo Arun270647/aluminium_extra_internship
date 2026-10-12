@@ -1,0 +1,21 @@
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.env.*
+!.env.example
+dist/
+test-results/
+playwright-report/
+.local/
+*.sqlite3
+db.sqlite3
+.DS_Store
+Thumbs.db
+*.log
+
+# Notes and docs kept locally
+*.md
+docs/

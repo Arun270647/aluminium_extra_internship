@@ -1,0 +1,14 @@
+[tool.ruff]
+target-version = "py312"
+line-length = 99
+extend-exclude = ["*/migrations/*"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM"]
+ignore = ["E501", "SIM117", "B905"]
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/*.py" = ["E402"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["apps", "config"]
